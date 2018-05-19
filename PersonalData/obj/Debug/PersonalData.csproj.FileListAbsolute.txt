@@ -13,3 +13,5 @@
 \\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.csproj.CoreCompileInputs.cache
 \\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.exe
 \\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.pdb
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\s_dic.baml
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\s_dic_dark.baml

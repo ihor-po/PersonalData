@@ -1,0 +1,83 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PersonalData">
+    <Style TargetType="{x:Type Grid}">
+        <Setter Property="Background" Value="#3c4247" />
+    </Style>
+    <!--Кнопка в заголовке GroupBox-->
+    <ControlTemplate x:Key="gb_headerButton" TargetType="{x:Type Button}">
+        <Grid>
+            <Rectangle Height="21" Stroke="{TemplateBinding BorderBrush}" Width="200" Fill="{TemplateBinding Background}" RadiusX="5" RadiusY="5" />
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="deleteButton" TargetType="{x:Type Button}">
+        <Grid>
+            <Rectangle Height="30" Width="130" Stroke="{TemplateBinding BorderBrush}" Fill="{TemplateBinding Background}" RadiusX="5" RadiusY="5"/>
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+    </ControlTemplate>
+    
+    <!--Кнопка удалить-->
+    <Style x:Key="delB" TargetType="{x:Type Button}">
+        <Setter Property="Template" Value="{StaticResource deleteButton}" />
+        <Setter Property="Width" Value="260" />
+        <Setter Property="BorderBrush" Value="#bc0000" />
+        <Setter Property="Background" Value="#bb4c4c" />
+        <Setter Property="Foreground" Value="#ffffff" />
+    </Style>
+
+    <Style x:Key="delB_dis" TargetType="{x:Type Button}">
+        <Setter Property="Template" Value="{StaticResource deleteButton}" />
+        <Setter Property="Width" Value="260" />
+        <Setter Property="BorderBrush" Value="#646464" />
+        <Setter Property="Background" Value="#8b8b8b" />
+        <Setter Property="Foreground" Value="#bcbcbc" />
+    </Style>
+
+    <!--Стиль всех Label-->
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="Calibry" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Margin" Value="0 2"/>
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Foreground" Value="#afafaf" />
+    </Style>
+
+    <!--Стиль всех GroupBox-->
+    <Style TargetType="GroupBox">
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="#9c9c9c" />
+        <Setter Property="Padding" Value="3" />
+        <Setter Property="BorderBrush" Value="#9a9a9a" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Margin" Value="0 2 4 2" />
+    </Style>
+
+    <!--Стиль всех ListBox-->
+    <Style TargetType="ListBox">
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Background" Value="#3c4247" />
+    </Style>
+
+    <!--Стиль всех TextBlock-->
+    <Style x:Key="TextBlockStyled" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Calibry" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="5 0" />
+        <Setter Property="Foreground" Value="#dbdbdb" />
+    </Style>
+
+    <!--Стиль всех TextBox-->
+    <Style TargetType="TextBox">
+        <Setter Property="FontFamily" Value="Calibry" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="BorderBrush" Value="#9a9a9a" />
+        <Setter Property="Background" Value="#3c4247" />
+        <Setter Property="Foreground" Value="#dbdbdb" />
+    </Style>
+</ResourceDictionary>
