@@ -1,0 +1,15 @@
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\bin\Debug\PersonalData.exe.config
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\bin\Debug\PersonalData.exe
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\bin\Debug\PersonalData.pdb
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.csprojResolveAssemblyReference.cache
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\MainWindow.g.cs
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\App.g.cs
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData_MarkupCompile.cache
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData_MarkupCompile.lref
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\MainWindow.baml
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.g.resources
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.Properties.Resources.resources
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.csproj.GenerateResource.Cache
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.csproj.CoreCompileInputs.cache
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.exe
+\\Mac\iCloud\Step\WPF\DZ\PersonalData\PersonalData\obj\Debug\PersonalData.pdb
